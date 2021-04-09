@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+}
+
+.col-200 {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.col-300 {
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.col-flex {
+  min-width: 100px;
+  flex-grow: 1;
+}
